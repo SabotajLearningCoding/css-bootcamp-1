@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@400;600&display=swap");
+/*-------------------------------------------------------FONTS-----------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background: #000;
+  background: radial-gradient(circle, #000 50%, #04e259 80%, #0a82e6 90%);
+}
+
+#wrapper {
+  margin: 480px auto;
+  max-width: 1920px;
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 160px;
+}
+
+/* menu */
+
+.menu {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  list-style: none;
+  column-gap: 50px;
+  margin: 0 0 1.5em 0;
+  padding-top: 1.3em;
+  padding-bottom: 1em;
+
+  border: solid ;
+
+  background-color: #00000050;
+}
+
+.menu__item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #04e259;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  border-bottom: solid #fff;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.menu__item:hover .menu__link {
+  color: #fff;
+  border-bottom: solid #04e259;
+}
+
+/* menu */
+
+.article{
+  
+  text-align: center;
+  color: #04e259;
+}
+
+.heading{
+  font-size: 2em;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+hr{
+  opacity: 0;
+}
+
+.text__content{
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  margin: 2em 0 2em 0;
+  background-color: #000;
+  
+}
+/* TEXT */
+
+/* IMAGE */
+
+.bigImgContainer{
+  width: 60%;
+  margin: 10px auto;
+}
+
+.smallImgContainer{
+  width: 60%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+/* VIDEO */
+
+.vidcontainer{
+  width: 60%;
+  margin: 10px auto;
+}
+
+.vidcontainer__vid{
+  width: 100%;
+  height: 480px;  
+}
+
+/* ASIDE */
+
+.aside{
+  width: 60%;
+  margin: 10px auto;
+}
+
+/* MAPS */
+
+.iframecontainer{
+  width: 60%;
+  margin: 10px auto;
+}
+
+.iframecontainer__maps{
+  width: 100%;
+  height: 480px;
+}
